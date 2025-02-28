@@ -1,0 +1,2137 @@
+{
+    "units": [
+        {
+            "id": "10101",
+            "name": "Lannister Guardsmen",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 5,
+                "speed": 4,
+                "defense": 3,
+                "morale": 7,
+                "attacks": [
+                    {
+                        "name": "Long Sword",
+                        "type": "melee",
+                        "hit": 4,
+                        "dice": [
+                            6,
+                            5,
+                            4
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "Order: Lannister Supremacy"
+                ],
+                "tray": "infantry"
+            },
+            "fluff": {
+                "lore": "The world over knows the extent of Lannister wealth, and its influence extends to even their most basic foot soldiers. The rank-and-file Lannister forces enjoy a battlefield superiority borne of strong armor, heavy metal shields, and the sense of invulnerability that goes with it. Most enemies of House Lannister prove incapable of even making a dent in such stalwart lines."
+            }
+        },
+        {
+            "id": "10102",
+            "name": "Lannister Halberdiers",
+            "statistics": {
+                "version": "2021-S02",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 5,
+                "speed": 5,
+                "defense": 4,
+                "morale": 6,
+                "attacks": [
+                    {
+                        "name": "Halberd",
+                        "type": "melee",
+                        "hit": 4,
+                        "dice": [
+                            7,
+                            7,
+                            4
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "Order: Set for charge",
+                    "Halberd"
+                ],
+                "tray": "infantry"
+            },
+            "fluff": {
+                "lore": "While capable of mounting offensive assaults, House Lannister’s Halberdiers excel in defensive formations and positions. Charging enemies should think twice before facing an entrenched Halberdier line. Care should be taken to shield Halberdiers from flanking maneuvers or ranged fire, but, when properly employed, nothing gets past a Halberdier’s deadly blade."
+            }
+        },
+        {
+            "id": "10103",
+            "name": "House Clegane Mountain's Men",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 6,
+                "speed": 5,
+                "defense": 4,
+                "morale": 6,
+                "attacks": [
+                    {
+                        "name": "Marauder’s Blades",
+                        "type": "melee",
+                        "hit": 4,
+                        "dice": [
+                            7,
+                            5,
+                            4
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "Marauder’s Blades",
+                    "Prey On Fear"
+                ],
+                "tray": "infantry"
+            },
+            "fluff": {
+                "lore": "Brutal, savage, merciless, and ferocious, the Mountain’s Men bring the art of warfare to new lows. They accept no quarter. Those that flee are cut down. Those that surrender are run through. The Mountain’s Men excel at striking enemy troops already beleaguered by regular forces, and shattering their will to fight. Care must be taken not to let these ruthless men too far off their leash."
+            }
+        },
+        {
+            "id": "10104",
+            "name": "Pyromancers",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 7,
+                "speed": 5,
+                "defense": 6,
+                "morale": 5,
+                "attacks": [
+                    {
+                        "name": "Wildfire",
+                        "type": "short",
+                        "hit": 3,
+                        "dice": [
+                            7,
+                            7,
+                            4
+                        ]
+                    },
+                    {
+                        "name": "Wildfire",
+                        "type": "melee",
+                        "hit": 3,
+                        "dice": [
+                            7,
+                            7,
+                            4
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "Wildfire",
+                    "Horrific Visage"
+                ],
+                "tray": "infantry"
+            },
+            "fluff": {
+                "lore": "Pyromancers from the Alchemists’ Guild employ House Lannister’s most fearsome and devastating weapon: Wildfire. Known as ‘the substance’, Wildfire is a green-tinted liquid of remarkable destructive potential. Its volatility makes transporting and employing the substance hazardous in and of itself, yet, no unit of mere mortal men can endure its assault. Even the thickest armor is useless against its clinging, pernicious flames."
+            }
+        },
+        {
+            "id": "10105",
+            "name": "Knights of Casterly Rock",
+            "statistics": {
+                "version": "S05",
+                "faction": "lannister",
+                "type": "cavalry",
+                "cost": 8,
+                "speed": 5,
+                "defense": 3,
+                "morale": 6,
+                "attacks": [
+                    {
+                        "name": "Lance",
+                        "type": "melee",
+                        "hit": 3,
+                        "dice": [
+                            5,
+                            4
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "Order: Lannister Supremacy",
+                    "Cavalry",
+                    "Lance"
+                ],
+                "wounds": 3,
+                "tray": "cavalry"
+            },
+            "fluff": {
+                "lore": "Expensively armed, expensively armored, and trained to perfection, the Knights of Casterly Rock bring unparalleled speed and lethality to the Lion banner. Few enemies are equipped to withstand a charge from these heavily armored juggernauts, and fewer still match their speed. While they can be bogged down in melee against determined infantry, few commanders let them remain so encumbered for long."
+            }
+        },
+        {
+            "id": "10106",
+            "name": "Lannister Crossbowmen",
+            "statistics": {
+                "version": "2021-S01",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 6,
+                "speed": 5,
+                "defense": 4,
+                "morale": 7,
+                "attacks": [
+                    {
+                        "name": "Crossbow",
+                        "type": "long",
+                        "hit": 3,
+                        "dice": [
+                            6,
+                            6,
+                            4
+                        ]
+                    },
+                    {
+                        "name": "Short Sword",
+                        "type": "melee",
+                        "hit": 5,
+                        "dice": [
+                            5,
+                            4,
+                            3
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "Crossbow"
+                ],
+                "tray": "infantry"
+            },
+            "fluff": {
+                "lore": "In terms of training, Crossbowmen require far less than their more archaically armed counterparts. Yet, the crossbow itself is more costly to manufacture and maintain, especially in battlefield conditions. With even minimal training, Crossbowmen can fire accurately and pierce thick armor even under the pressure of a direct charge. Though no Lannister commander places their Crossbowmen anywhere near a melee, if it can be helped!"
+            }
+        },
+        {
+            "id": "10107",
+            "name": "Gregor Clegane",
+            "subname": "The Mountain That Rides",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "cavalry",
+                "cost": 4,
+                "speed": 4,
+                "defense": 2,
+                "morale": 4,
+                "attacks": [
+                    {
+                        "name": "Cleaving Blows",
+                        "type": "melee",
+                        "hit": 3,
+                        "dice": [
+                            3
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "The Mountain That Rides",
+                    "Cleaving Blows",
+                    "Intimidating Presence"
+                ],
+                "wounds": 4,
+                "tray": "solo"
+            },
+            "fluff": {
+                "lore": "Ser Gregor Clegane truly towers over ordinary men. Such a massive man requires a mount of similar proportions, though the largest of steeds appear as mere ponies beneath the Mountain That Rides. Units under the Mountain’s command hit like an avalanche, and leave similar destruction in their wake. The Mountain is an utterly merciless opponent, a true weapon of muscle and steel.",
+                "quote": "“How could one expect to fight such a beast?”"
+            }
+        },
+        {
+            "id": "10108",
+            "name": "The Warrior's Sons",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 7,
+                "speed": 5,
+                "defense": 4,
+                "morale": 5,
+                "attacks": [
+                    {
+                        "name": "Anointed Blade",
+                        "type": "melee",
+                        "hit": 3,
+                        "dice": [
+                            7,
+                            6,
+                            4
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "Battle Prayer"
+                ],
+                "tokens": {
+                    "number": 1,
+                    "name": "faith"
+                },
+                "tray": "infantry"
+            },
+            "fluff": {
+                "lore": "Whether noble-born or ennobled, the Warrior’s Sons come from knightly backgrounds and devote their expertise in service to the Seven. Armed with shining swords, armored in heavy plate, and fortified by their unshakable faith, the Warrior’s Sons will reliably hold or advance upon any objective. When beset by impossible odds, the Sons are at their best, even when the situation might seem hopelessly desperate."
+            }
+        },
+        {
+            "id": "10109",
+            "name": "Poor Fellows",
+            "statistics": {
+                "version": "2021-S01",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 4,
+                "speed": 5,
+                "defense": 6,
+                "morale": 6,
+                "attacks": [
+                    {
+                        "name": "Bludgeon",
+                        "type": "melee",
+                        "hit": 5,
+                        "dice": [
+                            5,
+                            4,
+                            4
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "Fanatical Zeal",
+                    "Zealous Resurgence"
+                ],
+                "tokens": {
+                    "number": 1,
+                    "name": "faith"
+                },
+                "tray": "infantry"
+            },
+            "fluff": {
+                "lore": "While unarmored and wielding naught but improvised or scavenged weapons, only a foolish commander would discount the Poor Fellows on the battlefield. Their vast numbers and unshakable faith in the Seven let the Poor Fellows fight on where units of less-devout men would break and flee. For holding a line or assaulting an impossible defense, the Poor Fellows’ faith will see them through!"
+            }
+        },
+        {
+            "id": "10110",
+            "name": "Kingsguard",
+            "statistics": {
+                "version": "S04",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 6,
+                "speed": 5,
+                "defense": 3,
+                "morale": 4,
+                "attacks": [
+                    {
+                        "name": "Masterwork Blade",
+                        "type": "melee",
+                        "hit": 2,
+                        "dice": [
+                            7,
+                            7
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "Order: Resilience",
+                    "Joffrey's Retinue",
+                    "Counterstrike"
+                ],
+                "requirements": [
+                    {
+                        "name": "Character",
+                        "text": "*Can only be fielded in an army including 'Joffrey Baratheon, First of His Name'. Your army may not include Jaime Lannister. Joffrey must be attached to this unit.*"
+                    }
+                ],
+                "tray": "infantry",
+                "character": true
+            },
+            "rules": [
+                "50101"
+            ],
+            "fluff": {
+                "lore": "As a unit, the Kingsguard are the best-armed, best-armored, and most experienced troops in the War of the Five Kings. Though they suffer from the usual weakness of any heavy infantry if they become surrounded, they are also hobbled with one additional irritant: King Joffrey Baratheon. Still, despite being but seven men, the Kingsguard can successfully assault or defend against three times their number."
+            }
+        },
+        {
+            "id": "10111",
+            "name": "Red Cloaks",
+            "statistics": {
+                "version": "2021-S01",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 6,
+                "speed": 5,
+                "defense": 4,
+                "morale": 6,
+                "attacks": [
+                    {
+                        "name": "Long Sword",
+                        "type": "melee",
+                        "hit": 4,
+                        "dice": [
+                            7,
+                            5,
+                            4
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "Fearless Avarice",
+                    "Lannister Justice"
+                ],
+                "tray": "infantry"
+            },
+            "fluff": {
+                "lore": "Lannister Red Cloaks are elite guardsmen who serve as the enforcement arm of House Lannister in King’s Landing and Casterly Rock. Their job is to keep the population in check through intimidation, fear, and sharp blades. They’re notable not just for their crimson cloaks, but also their half-plate armor, itself as well-made as mass-produced armor can be. They’re solid medium infantry, and among the best-paid troops in the Lannister roster."
+            }
+        },
+        {
+            "id": "10112",
+            "name": "House Clegane Brigands",
+            "statistics": {
+                "version": "2021-S02",
+                "faction": "lannister",
+                "type": "cavalry",
+                "cost": 6,
+                "speed": 6,
+                "defense": 5,
+                "morale": 7,
+                "attacks": [
+                    {
+                        "name": "Brutal Armaments",
+                        "type": "melee",
+                        "hit": 3,
+                        "dice": [
+                            7,
+                            5
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "Cavalry",
+                    "Brutal Armaments"
+                ],
+                "wounds": 3,
+                "tray": "cavalry"
+            },
+            "fluff": {
+                "lore": "While most cavalry assaults are savage enough, Gregor Clegane’s bands of mounted brigands take brutality beyond all norms. It’s not enough for them to simply shred enemy ranks from the flanks or rear. For the type of man drawn to Clegane’s ranks, a weapon that leaves an enemy crippled and shattered is as good as one that kills swiftly and efficiently. Yet, for all their fearsome reputation, Brigands have little thirst for fair fights."
+            }
+        },
+        {
+            "id": "10113",
+            "name": "Lannisport City Watch",
+            "statistics": {
+                "version": "S04",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 6,
+                "speed": 5,
+                "defense": 4,
+                "morale": 6,
+                "attacks": [
+                    {
+                        "name": "Spear",
+                        "type": "melee",
+                        "hit": 4,
+                        "dice": [
+                            7,
+                            6,
+                            4
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "Order: Adaptive Style",
+                    "Domineering Pride"
+                ],
+                "tray": "infantry"
+            },
+            "fluff": {
+                "lore": "As watchmen for House Lannister’s seat of power, the Lannisport City Watch is armed and armored as well (if not better) than many front-line troops in the War of the Five Kings. That said, they’re not regular soldiers, and should not be relied upon to hold the vanguard or stand against a furious cavalry charge. That said, when in large numbers and properly supported, they remain effective and dangerous, a truly excellent support unit."
+            }
+        },
+        {
+            "id": "10114",
+            "name": "Casterly Rock Honor Guard",
+            "statistics": {
+                "version": "S05",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 7,
+                "speed": 5,
+                "defense": 3,
+                "morale": 5,
+                "attacks": [
+                    {
+                        "name": "Lannister Oppression",
+                        "type": "melee",
+                        "hit": 3,
+                        "dice": [
+                            7,
+                            6,
+                            5
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "Lannister Oppression"
+                ],
+                "tray": "infantry"
+            },
+            "fluff": {
+                "lore": "The vast castle at Casterly Rock serves as both a symbol of Lannister supremacy and an unbreakable fortress overlooking Lannisport. As such its guardians, the renowned Casterly Rock Honor Guard also serve as symbols of unbreakable Lannister might. Outfitted in the finest plate armor money can buy, and trained as a heavy response force to local threats, the Honor Guard can stand the line and exploit enemy vulnerabilities as they reveal themselves."
+            }
+        },
+        {
+            "id": "10115",
+            "name": "Gold Cloaks",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 5,
+                "speed": 5,
+                "defense": 4,
+                "morale": 7,
+                "attacks": [
+                    {
+                        "name": "Bludgeon",
+                        "type": "melee",
+                        "hit": 4,
+                        "dice": [
+                            7,
+                            5,
+                            4
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "Order: Laws of the Realm",
+                    "Oppressive Peacekeeping"
+                ],
+                "tray": "infantry"
+            },
+            "fluff": {
+                "lore": "King’s Landing is generally considered a safe place to live, given that the aptly named Gold Cloaks can be seen patrolling avenues and alleyways from afar. They’re always ready to ensure that justice is served. As to whose justice that might be, however, the Lannisters rule King’s Landing, and the Gold Cloaks bend their knees to the Iron Throne. Speak ill of the king at your peril."
+            }
+        },
+        {
+            "id": "10116",
+            "name": "Stone Crows",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 5,
+                "speed": 5,
+                "defense": 4,
+                "morale": 7,
+                "attacks": [
+                    {
+                        "name": "Scavenged Weapons",
+                        "type": "melee",
+                        "hit": 4,
+                        "dice": [
+                            6,
+                            5,
+                            4
+                        ]
+                    }
+                ],
+                "abilities": [
+                    "Order: Incite",
+                    "Disorganized",
+                    "Recruiting From The Hills"
+                ],
+                "requirements": [
+                    {
+                        "name": "Character",
+                        "text": "*Can only be fielded in an army containing Tyrion Lannister. He may be attached to this unit at no cost.*"
+                    }
+                ],
+                "tray": "infantry",
+                "character": true
+            },
+            "fluff": {
+                "lore": "As mountain tribes and raiders go, Tyrion Lannister’s Stone Crows are quite ordinary, save their unexpected loyalty. While pledged more to Tyrion’s coin than his person, they proved true to their word, even when betrayal might have been a more lucrative option. As mercenaries, these troops are worth their coin, if properly employed as scouts and flankers. Their light arms and armor make them unsuited to the front line in  a protracted engagement."
+            }
+        }
+    ],
+    "ncus": [
+        {
+            "id": "30101",
+            "name": "Tywin Lannister",
+            "subname": "The Great Lion",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "cost": 6,
+                "abilities": [
+                    {
+                        "name": "The Rains of Castamere",
+                        "effect": [
+                            "Once per game, at the start of any Turn, target any number of enemy Combat Units:",
+                            "• 1 of those enemies becomes Panicked.",
+                            "• 1 of those enemies becomes Vulnerable.",
+                            "• 1 of those enemies suffers 4 Hits.",
+                            "• 1 of those enemies suffers 1 Panic Test.",
+                            "• 1 of those enemies loses all Abilities until the end of the Round.",
+                            "*(The same Combat Unit may be targeted by multiple effects)*"
+                        ]
+                    }
+                ]
+            },
+            "fluff": {
+                "quote": "\"Some battles are won with swords and spears, others with quills and ravens.\""
+            }
+        },
+        {
+            "id": "30102",
+            "name": "Pycelle",
+            "subname": "Grand Maester",
+            "statistics": {
+                "version": "S04",
+                "faction": "lannister",
+                "cost": 4,
+                "abilities": [
+                    {
+                        "name": "Manipulation and Deception",
+                        "effect": [
+                            "Pycelle begins the game with 3 Order tokens. ",
+                            "Each time Pycelle Activates, you may remove 1 Order token from him. If you do, target 1 enemy Combat Unit. They become **Weakened**."
+                        ]
+                    }
+                ],
+                "tokens": {
+                    "number": 3,
+                    "name": "order"
+                }
+            },
+            "fluff": {
+                "quote": "\"Pycelle is a toad. But better a Lannister toad then a Tyrell toad, no?\" -Tyrion Lannister"
+            }
+        },
+        {
+            "id": "30103",
+            "name": "The High Sparrow",
+            "subname": "Father of the Faithful",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "cost": 4,
+                "abilities": [
+                    {
+                        "name": "Fealty to The Seven",
+                        "effect": [
+                            "**Influence** *(When this unit Claims a Tactics Zone, attach this card to a Combat Unit until the end of the Round)*: ",
+                            "While Influencing an enemy, each time that enemy suffers Wounds from failing Panic Tests, target 1 friendly unit in Long Range. They restore that many Wounds, up to 3."
+                        ]
+                    }
+                ]
+            },
+            "fluff": {
+                "quote": "\"I seldom feel so close to god as when I am being whipped for mine own wickedness...\""
+            }
+        },
+        {
+            "id": "30104",
+            "name": "Tyrion Lannister",
+            "subname": "The Imp",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "cost": 5,
+                "abilities": [
+                    {
+                        "name": "Tactical Mastermind",
+                        "effect": [
+                            "Your maximum Tactics Hand size is increased by +1. You start the game with 4 cards and may draw up to 4 cards when re-filling your hand.",
+                            "Once per game, when an opponent plays a Tactics card, before resolving that card, you may search your Tactics deck or discard pile for 1 **Counterplot** card and play it. Shuffle your Tactics deck."
+                        ]
+                    }
+                ]
+            },
+            "fluff": {
+                "quote": "\"He is a bigger man than he seems, I think.\""
+            }
+        },
+        {
+            "id": "30105",
+            "name": "Cersei Lannister",
+            "subname": "Queen Regent",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "cost": 4,
+                "abilities": [
+                    {
+                        "name": "Playing The Game",
+                        "effect": [
+                            "Cersei begins the game with 2 Order tokens. ",
+                            "Each time Cersei Claims a zone, you may remove 1 Order token from her.",
+                            "If you do, perform the following: ",
+                            "If you Control [CROWN], search your Tactics deck or discard pile for 1 **Hear Me Roar!** card and add it to your hand. Shuffle your Tactics deck.",
+                            "If you Control [MONEY], search your Tactics deck or discard pile for 1 **Subjugation of Power** card and add it to your hand. Shuffle your Tactics deck."
+                        ]
+                    }
+                ],
+                "tokens": {
+                    "number": 2,
+                    "name": "order"
+                }
+            },
+            "fluff": {
+                "quote": "\"When you play the game of thrones, you win or you die. There is no middle ground.\""
+            }
+        },
+        {
+            "id": "30106",
+            "name": "Joffrey Baratheon",
+            "subname": "Lord of the Seven Kingdoms",
+            "statistics": {
+                "version": "2021-S01",
+                "faction": "lannister",
+                "cost": 5,
+                "abilities": [
+                    {
+                        "name": "Might of The Iron Throne",
+                        "effect": [
+                            "While Joffrey is on the Tactics Board, you count as Controlling [CROWN].",
+                            "**Influence** *(When this unit Claims a zone, attach this card to a Combat Unit until the end of the Round)*:",
+                            "While lnfluencing an enemy, that enemy suffers +1 Wound from failing Panic Tests."
+                        ]
+                    }
+                ]
+            },
+            "fluff": {
+                "quote": "\"His Grace has a unique way of winning the hearts of his subjects.\""
+            }
+        },
+        {
+            "id": "30107",
+            "name": "Kevan Lannister",
+            "subname": "Master Of Law",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "cost": 5,
+                "abilities": [
+                    {
+                        "name": "Unbiased Justice",
+                        "effect": [
+                            "Once per game, at the start of any Turn, target any number of friendly Combat Units:",
+                            "• 1 of those units restores 2 Wounds.",
+                            "• 1 of those units removes all Condition tokens.",
+                            "• 1 of those units performs a 2\" shift.",
+                            "• Until the end of the Round, 1 of those units Attacks using its highest Attack Die Value, and may re-roll any Attack Dice.",
+                            "*(The same Combat Unit may be targeted by multiple effects)*"
+                        ]
+                    }
+                ]
+            },
+            "fluff": {
+                "quote": "\"The gods shaped him to be a follower, not a leader.\" -Tyrion Lannister"
+            }
+        },
+        {
+            "id": "30108",
+            "name": "Qyburn",
+            "subname": "Master Of Whisperers",
+            "statistics": {
+                "version": "S04",
+                "faction": "lannister",
+                "cost": 4,
+                "abilities": [
+                    {
+                        "name": "Little Doves",
+                        "effect": [
+                            "Qyburn begins the game with 3 Order tokens on him.",
+                            "Each time an enemy NCU activates, you may remove 1 Order token from Qyburn. If you do, choose 2 zones. If that NCU Claims either zone this Turn, after resolving that zone's effect, target up to 2 enemy Combat Units. They become **Vulnerable**."
+                        ]
+                    }
+                ],
+                "requirements": [
+                    {
+                        "text": "*May not be fielded in an army containing Varys.*"
+                    }
+                ],
+                "tokens": {
+                    "number": 3,
+                    "name": "order"
+                }
+            },
+            "fluff": {
+                "quote": "\"Your secrets are safe with me.\""
+            }
+        },
+        {
+            "id": "30109",
+            "name": "Tommen Baratheon",
+            "subname": "Next in Succession",
+            "statistics": {
+                "version": "S04",
+                "faction": "lannister",
+                "cost": 4,
+                "abilities": [
+                    {
+                        "name": "Queen's Influence",
+                        "effect": [
+                            "Tommen begins the game with 2 Order tokens.",
+                            "Each time Tommen Claims a zone, you may remove 1 Order token from him. If you do, perform the following:",
+                            "If you Control [CROWN], search your Tactics deck or discard pile for 1 **Intrigue and Subterfuge** card and add it to your hand. Shuffle your Tactics deck.",
+                            "If you Control [MONEY], search your Tactics deck or discard pile for 1 **Bribery** card and add it to your hand. Shuffle your Tactics deck."
+                        ]
+                    }
+                ],
+                "tokens": {
+                    "number": 2,
+                    "name": "order"
+                }
+            },
+            "fluff": {
+                "quote": "\"When I'm king in my own right, I'm going to outlaw beets.\""
+            }
+        }
+    ],
+    "attachments": [
+        {
+            "id": "20101",
+            "name": "Assault Veteran",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 1,
+                "abilities": [
+                    "Intimidating Presence"
+                ]
+            }
+        },
+        {
+            "id": "20102",
+            "name": "Guard Captain",
+            "statistics": {
+                "version": "2021-S01",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 1,
+                "abilities": [
+                    "Order: Hold the Line!"
+                ]
+            }
+        },
+        {
+            "id": "20103",
+            "name": "Sandor Clegane",
+            "subname": "The Hound",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 1,
+                "abilities": [
+                    "Affiliation: House Clegane",
+                    "Fueled By Slaughter",
+                    "Furious Charge"
+                ],
+                "character": true
+            },
+            "fluff": {
+                "quote": "\"Killing is the sweetest thing there is.\""
+            }
+        },
+        {
+            "id": "20104",
+            "name": "Tywin Lannister",
+            "subname": "Lord of Casterly Rock",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": "C",
+                "abilities": [
+                    "Order: Lannister Supremacy",
+                    "Order: Threaten"
+                ],
+                "commander": true,
+                "character": true
+            },
+            "tactics": {
+                "cards": {
+                    "40114": "Exploit Weakness",
+                    "40115": "Broken Resolve",
+                    "40116": "Issue Commands"
+                }
+            },
+            "fluff": {
+                "quote": "\"There is a tool for every task, and a task for every tool.\""
+            }
+        },
+        {
+            "id": "20105",
+            "name": "Tyrion Lannister",
+            "subname": "Halfman",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": "C",
+                "abilities": [
+                    "Order: Counterstrategy",
+                    "Order: Tactical Reposition"
+                ],
+                "commander": true,
+                "character": true
+            },
+            "tactics": {
+                "cards": {
+                    "40117": "False Agenda",
+                    "40118": "Cunning Ploy",
+                    "40119": "Intercept Orders"
+                }
+            },
+            "fluff": {
+                "quote": "\"Those are brave men. Let's go kill them.\""
+            }
+        },
+        {
+            "id": "20106",
+            "name": "Barristan Selmy",
+            "subname": "Lord Commander of The Kingsguard",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 2,
+                "abilities": [
+                    "Duty To The Crown",
+                    "Stalwart"
+                ],
+                "requirements": [
+                    {
+                        "text": "*May not be fielded in an army that includes the Kingsguard unit.*"
+                    }
+                ],
+                "character": true
+            },
+            "fluff": {
+                "quote": "\"Of these seven, only Ser Barristan Selmy is made of the true steel, and Selmy is old.\" -Varys"
+            }
+        },
+        {
+            "id": "20107",
+            "name": "Jaime Lannister",
+            "subname": "Kingsguard",
+            "statistics": {
+                "version": "2021-S02",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 2,
+                "abilities": [
+                    "Expert Duelist",
+                    "Counterstrike"
+                ],
+                "requirements": [
+                    {
+                        "text": "*May not be fielded in an army that includes the Kingsguard unit.*"
+                    }
+                ],
+                "character": true
+            },
+            "fluff": {
+                "quote": "\"...A Sworn Brother of the White Swords, and we all know what his oath is worth.\" -Varys"
+            }
+        },
+        {
+            "id": "20108",
+            "name": "Mandon Moore",
+            "subname": "Kingsguard",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 1,
+                "abilities": [
+                    "Dominance Of The Crown"
+                ],
+                "requirements": [
+                    {
+                        "text": "*May not be fielded in an army that includes the Kingsguard unit.*"
+                    }
+                ],
+                "character": true
+            },
+            "fluff": {
+                "quote": "\"Death in snow-white silk.\" -Tyrion Lannister"
+            }
+        },
+        {
+            "id": "20109",
+            "name": "Meryn Trant",
+            "subname": "Kingsguard",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 1,
+                "abilities": [
+                    "Intimidation Of The Crown"
+                ],
+                "requirements": [
+                    {
+                        "text": "*May not be fielded in an army that includes the Kingsguard unit.*"
+                    }
+                ],
+                "character": true
+            },
+            "fluff": {
+                "quote": "\"Once they were a marvel, a shining lesson to the world...\" -Bran Stark"
+            }
+        },
+        {
+            "id": "20110",
+            "name": "Arys Oakheart",
+            "subname": "Kingsguard",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 1,
+                "abilities": [
+                    "Protection Of The Crown"
+                ],
+                "requirements": [
+                    {
+                        "text": "*May not be fielded in an army that includes the Kingsguard unit.*"
+                    }
+                ],
+                "character": true
+            },
+            "fluff": {
+                "quote": "\"There have always been men who found it easier to speak vows than to keep them.\""
+            }
+        },
+        {
+            "id": "20111",
+            "name": "Boros Blount",
+            "subname": "Kingsguard",
+            "statistics": {
+                "version": "2021-S01",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 1,
+                "abilities": [
+                    "Vengeance Of The Crown"
+                ],
+                "requirements": [
+                    {
+                        "text": "*May not be fielded in an army that includes the Kingsguard unit.*"
+                    }
+                ],
+                "character": true
+            },
+            "fluff": {
+                "quote": "\"No man threatens His Grace in the presence of the Kingsguard!\""
+            }
+        },
+        {
+            "id": "20112",
+            "name": "Preston Greenfield",
+            "subname": "Kingsguard",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 1,
+                "abilities": [
+                    "Orders Of The Crown (Preston Greenfield)"
+                ],
+                "requirements": [
+                    {
+                        "text": "*May not be fielded in an army that includes the Kingsguard unit.*"
+                    }
+                ],
+                "character": true
+            },
+            "fluff": {
+                "quote": "\"Who listens to everything yet hears nothing? A Knight of the Kingsguard.\""
+            }
+        },
+        {
+            "id": "20113",
+            "name": "Champion of the Faith",
+            "statistics": {
+                "version": "2021-S02",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 1,
+                "abilities": [
+                    "Order: War Cry"
+                ]
+            }
+        },
+        {
+            "id": "20114",
+            "name": "Gregor Clegane",
+            "subname": "Lord Tywin's Mad Dog",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 2,
+                "abilities": [
+                    "Unstoppable Wrath",
+                    "Uncontrolled Rage"
+                ],
+                "character": true
+            },
+            "fluff": {
+                "quote": "\"No one could ever withstand Gregor.\""
+            }
+        },
+        {
+            "id": "20115",
+            "name": "Jaime Lannister",
+            "subname": "The Kingslayer",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": "C",
+                "abilities": [
+                    "Precision",
+                    "Counterstrike",
+                    "Disrupt"
+                ],
+                "commander": true,
+                "character": true
+            },
+            "tactics": {
+                "cards": {
+                    "40108": "Kingslayer's Renown",
+                    "40109": "Kingslayer's Prowess",
+                    "40110": "Kingslayer's Infamy"
+                }
+            },
+            "fluff": {
+                "quote": "\"They called him the Lion of Lannister to his face and whispered \"Kingslayer\" behind his back.\""
+            }
+        },
+        {
+            "id": "20116",
+            "name": "Gregor Clegane",
+            "subname": "The Mountain",
+            "statistics": {
+                "version": "S04",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": "C",
+                "abilities": [
+                    "Affiliation: House Clegane",
+                    "Indomitable",
+                    "The Mountain's Strength"
+                ],
+                "commander": true,
+                "character": true
+            },
+            "tactics": {
+                "cards": {
+                    "40111": "Overrun",
+                    "40112": "Assault Orders",
+                    "40113": "Price of Failure"
+                }
+            },
+            "fluff": {
+                "quote": "\"No other knight in the realm inspires such terror in our enemies.\""
+            }
+        },
+        {
+            "id": "20117",
+            "name": "Jaime Lannister",
+            "subname": "The Young Lion",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 2,
+                "abilities": [
+                    "Order: Martial Training",
+                    "Stalwart"
+                ],
+                "character": true
+            },
+            "fluff": {
+                "quote": "\"There are no men like me. There's only me.\""
+            }
+        },
+        {
+            "id": "20118",
+            "name": "Gregor Clegane",
+            "subname": "Mounted Behemoth",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "cavalry",
+                "cost": 3,
+                "abilities": [
+                    "Unstoppable Wrath",
+                    "Uncontrolled Rage"
+                ],
+                "character": true
+            },
+            "fluff": {
+                "quote": "\"That beast's head would make a noble gift for all the people of the realm, I vow.\" -Brynden Tully"
+            }
+        },
+        {
+            "id": "20120",
+            "name": "Tyrion Lannister",
+            "subname": "The Giant of Lannister",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 1,
+                "abilities": [
+                    "Order: Battle Plan",
+                    "Order: Counterstrategy"
+                ],
+                "character": true
+            },
+            "fluff": {
+                "quote": "\"I think he is a giant come among us, here at the end of the world.\" -Maester Aemon"
+            }
+        },
+        {
+            "id": "20121",
+            "name": "Joffrey Baratheon",
+            "subname": "First of His Name",
+            "statistics": {
+                "version": "2021-S02",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": "C",
+                "abilities": [
+                    "Orders Of The Crown (Joffrey Baratheon)"
+                ],
+                "commander": true,
+                "character": true
+            },
+            "tactics": {
+                "cards": {
+                    "40123": "You Will Obey Me!",
+                    "40124": "Traitors! I Will Have Their Heads!",
+                    "40125": "I Am The King!"
+                }
+            },
+            "fluff": {
+                "quote": "\"My son. How could I have made a son like that, Ned?.\" -Robert Baratheon"
+            }
+        },
+        {
+            "id": "20123",
+            "name": "Sentinel Enforcer",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 1,
+                "abilities": [
+                    "Order: Taunt"
+                ]
+            }
+        },
+        {
+            "id": "20124",
+            "name": "Clegane Butcher",
+            "statistics": {
+                "version": "2021-S02",
+                "faction": "lannister",
+                "type": "cavalry",
+                "cost": 1,
+                "abilities": [
+                    "Fueled by Slaughter"
+                ]
+            }
+        },
+        {
+            "id": "20125",
+            "name": "The High Sparrow",
+            "subname": "His High Holiness",
+            "statistics": {
+                "version": "S05",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": "C",
+                "abilities": [
+                    "Embolden",
+                    "Intimidating Presence"
+                ],
+                "commander": true,
+                "character": true
+            },
+            "tactics": {
+                "cards": {
+                    "40120": "Mercy of The Mother",
+                    "40121": "Protection of The Father",
+                    "40122": "Wrath of The Warrior"
+                }
+            },
+            "fluff": {
+                "quote": "\"What have we become, when kings and high lords must dance to the twittering of Sparrows.\""
+            }
+        },
+        {
+            "id": "20126",
+            "name": "Qyburn",
+            "subname": "Forbidden Knowledge",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 1,
+                "abilities": [
+                    "Experiment Enhancements",
+                    "Violent Reactions"
+                ],
+                "character": true
+            },
+            "fluff": {
+                "quote": "\"The Citadel took my chain, but they could not take my knowledge.\""
+            }
+        },
+        {
+            "id": "20127",
+            "name": "Addam Marbrand",
+            "subname": "Trusted Bannerman",
+            "statistics": {
+                "version": "S04",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 2,
+                "abilities": [
+                    "Order: Sentinel",
+                    "Jaime's Vassal"
+                ],
+                "character": true
+            },
+            "fluff": {
+                "quote": "\"I should welcome the chance to try my own steel against this Stark boy.\""
+            }
+        },
+        {
+            "id": "20128",
+            "name": "Ser Robert Strong",
+            "subname": "The Silent Giant",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 3,
+                "abilities": [
+                    "Order: Resilience",
+                    "Unstoppable Wrath"
+                ],
+                "requirements": [
+                    {
+                        "text": "*May not be fielded in an army that includes Gregor Clegane. May only be fielded in an army that includes Qyburn or Tommen Baratheon, Next in Succession.*"
+                    }
+                ],
+                "character": true
+            },
+            "fluff": {
+                "quote": "\"We do not even know if he's alive.\" -Kevan Lannister"
+            }
+        },
+        {
+            "id": "20129",
+            "name": "Addam Marbrand",
+            "subname": "Commander of the City Watch",
+            "statistics": {
+                "version": "2021-S02",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": "C",
+                "abilities": [
+                    "Hardened",
+                    "Iron Resolve"
+                ],
+                "commander": true,
+                "character": true
+            },
+            "tactics": {
+                "cards": {
+                    "40126": "Charismatic Leadership",
+                    "40127": "Lash Out",
+                    "40128": "Valiant Example"
+                }
+            },
+            "fluff": {
+                "quote": "\"Like Jaime, he was the sort of man other men liked to follow.\" -Tyrion Lannister"
+            }
+        },
+        {
+            "id": "20130",
+            "name": "Kevan Lannister",
+            "subname": "Protector of the Realm",
+            "statistics": {
+                "version": "S04",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": "C",
+                "abilities": [
+                    "Order: Lannister Supremacy",
+                    "Might of the Throne (Kevan Lannister)"
+                ],
+                "commander": true,
+                "character": true
+            },
+            "tactics": {
+                "cards": {
+                    "40129": "Predictable Maneuvers",
+                    "40130": "Seeing Their Flaws",
+                    "40131": "Wealth of the Rock"
+                }
+            },
+            "fluff": {
+                "quote": "\"There are many like you, good men in service to bad causes ...\" -Varys"
+            }
+        },
+        {
+            "id": "20131",
+            "name": "Gate Warden",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 1,
+                "abilities": [
+                    "Superior Numbers",
+                    "Reinforcements"
+                ]
+            }
+        },
+        {
+            "id": "20119",
+            "name": "Jaime Lannister",
+            "subname": "Maimed Hostage",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 1,
+                "abilities": [
+                    "Valuable Captive (Jaime Lannister)",
+                    "Vengeful Captive"
+                ],
+                "requirements": [
+                    {
+                        "text": "*Before Deployment, attach Jaime to an enemy Infantry unit, ignoring the usual Attachment restrictions.*"
+                    }
+                ],
+                "character": true,
+                "enemy": true
+            },
+            "fluff": {
+                "quote": "\"What they did to him was unspeakably cruel.\""
+            }
+        },
+        {
+            "id": "20122",
+            "name": "Turncoat",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "type": "infantry",
+                "cost": 1,
+                "abilities": [
+                    "Sabotage and Subvert"
+                ],
+                "requirements": [
+                    {
+                        "text": "*After Deployment, attach this model to an enemy Infantry unit, ignoring the usual Attachment restrictions.*"
+                    }
+                ],
+                "enemy": true
+            }
+        }
+    ],
+    "tactics": [
+        {
+            "id": "40101",
+            "name": "Intrigue and Subterfuge",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When an enemy NCU Activates:",
+                        "effect": [
+                            "That NCU loses all Abilities until the end of the Round.",
+                            "If you Control [MONEY], target 1 enemy Combat Unit. That enemy becomes **Weakened**."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "40102",
+            "name": "A Lannister Pays His Debts",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "Start of any Turn:",
+                        "effect": [
+                            "Target 1 friendly Combat Unit and attach this card to them until the end of the game. When a friendly Infantry or Cavalry unit is destroyed, place 1 Order token on this card.",
+                            "While this card has a token, the attached unit's Melee Attacks gain **Vicious** and, while you Control [CROWN], +1 to Hit."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "40103",
+            "name": "Hear Me Roar!",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When an enemy is performing a Morale Test, before dice are rolled:",
+                        "effect": [
+                            "That enemy suffers -1 to their roll, and an additional -1 for each of their destroyed ranks. On failure, they suffer 1 Wound *(or +1 Wound on a failed Panic Test)*."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "40104",
+            "name": "Bribery",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When a friendly NCU Claims a zone:",
+                        "effect": [
+                            "Replace that zone's effect with:",
+                            "*Target 1 enemy Combat Unit and attach the Bribery card to them until they pass a Morale Test, or are targeted by [MONEY].*",
+                            "While attached, this unit Attacks using its lowest Attack Die Value and suffers -1 to Morale Test rolls."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "40105",
+            "name": "Counterplot",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When an opponent plays a Tactics card, before resolving that Tactics card:",
+                        "effect": [
+                            "Roll a die: On a 3+, cancel the effect of that Tactics Card.",
+                            "If you Control [CROWN] or [MONEY], cancel the effect of that Tactics card on a 2+ instead.",
+                            "If you Control both, this roll automatically succeeds."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "40106",
+            "name": "Fealty to The Crown",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When an enemy fails a Panic Test:",
+                        "effect": [
+                            "Target 1 friendly unit in Long Range.",
+                            "For each Wound that enemy suffered from this test, restore 1 Wound to that friendly unit, up to 3.",
+                            "If you Control [CROWN], that enemy suffers +1 Wound and that friendly unit restore +1 Wound *(to a maximum of 4)*."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "40107",
+            "name": "Subjugation of Power",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When an enemy Combat Unit Activates:",
+                        "effect": [
+                            "That enemy suffers 1 Panic Test. For each zone you Control among [CROWN] and [MONEY] they suffer -1 to their roll.",
+                            "On a failure, until the end of the Turn, they cannot be targeted by friendly Tactics cards and lose all Abilities."
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "id": "40108",
+            "name": "Kingslayer's Renown",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When a friendly unit in Long Range of Jaime Lannister's unit is performing a Morale Test, after rolling dice:",
+                        "effect": [
+                            "This unit passes that Test.",
+                            "If this is Jaime's unit, it also restores 2 Wounds."
+                        ]
+                    },
+                    {
+                        "trigger": "Start of any Turn:",
+                        "effect": [
+                            "Draw 1 Tactics card."
+                        ]
+                    }
+                ],
+                "commander_id": "20115",
+                "commander_name": "Jaime Lannister",
+                "commander_subname": "The Kingslayer"
+            }
+        },
+        {
+            "id": "40109",
+            "name": "Kingslayer's Prowess",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When Jaime Lannister's unit is performing a Melee Attack, before rolling Attack Dice:",
+                        "effect": [
+                            "This Attack rolls its highest Attack Die Value, may re-roll any Misses, and the Defender becomes **Vulnerable**."
+                        ]
+                    },
+                    {
+                        "trigger": "Start of any Turn:",
+                        "effect": [
+                            "Draw 1 Tactics card."
+                        ]
+                    }
+                ],
+                "commander_id": "20115",
+                "commander_name": "Jaime Lannister",
+                "commander_subname": "The Kingslayer"
+            }
+        },
+        {
+            "id": "40110",
+            "name": "Kingslayer's Infamy",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When an enemy in Long Range of Jaime Lannister's unit Activates:",
+                        "effect": [
+                            "That enemy become **Panicked** and then suffers 1 Panic Test.",
+                            "On a failure, that enemy also becomes **Weakened**."
+                        ]
+                    },
+                    {
+                        "trigger": "Start of any Turn:",
+                        "effect": [
+                            "Draw 1 Tactics card."
+                        ]
+                    }
+                ],
+                "commander_id": "20115",
+                "commander_name": "Jaime Lannister",
+                "commander_subname": "The Kingslayer"
+            }
+        },
+        {
+            "id": "40111",
+            "name": "Overrun",
+            "statistics": {
+                "version": "S04",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When a friendly unit Surges Forth:",
+                        "effect": [
+                            "Instead of Surging Forth, that unit performs 1 Charge or March Action.",
+                            "If this targets a House Clegane unit, it may re-roll any Charge Distance Dice."
+                        ]
+                    }
+                ],
+                "commander_id": "20116",
+                "commander_name": "Gregor Clegane",
+                "commander_subname": "The Mountain"
+            }
+        },
+        {
+            "id": "40112",
+            "name": "Assault Orders",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When a friendly NCU Claims a zone:",
+                        "effect": [
+                            "Replace that zone's effect with:",
+                            "*1 friendly Combat Unit performs 1 Melee Attack Action.*",
+                            "*If this targets a House Clegane unit, it may perform 1 Charge Action instead.*"
+                        ]
+                    }
+                ],
+                "commander_id": "20116",
+                "commander_name": "Gregor Clegane",
+                "commander_subname": "The Mountain"
+            }
+        },
+        {
+            "id": "40113",
+            "name": "Price of Failure",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When a friendly unit is performing a Melee Attack, before rolling Attack Dice:",
+                        "effect": [
+                            "All Attack Dice rolls automatically Hit for this Attack.",
+                            "After this attack is completed, if the Defender was not destroyed, the Attacker becomes **Panicked** and **Vulnerable**."
+                        ]
+                    }
+                ],
+                "commander_id": "20116",
+                "commander_name": "Gregor Clegane",
+                "commander_subname": "The Mountain"
+            }
+        },
+        {
+            "id": "40114",
+            "name": "Exploit Weakness",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When a friendly unit is performingan Attack, before rolling Attack Dice:",
+                        "effect": [
+                            "The Defender becomes **Vulnerable**.",
+                            "If the Defender is **Weakened**, the Attacker may re-roll any Attack Dice."
+                        ]
+                    }
+                ],
+                "commander_id": "20104",
+                "commander_name": "Tywin Lannister",
+                "commander_subname": "Lord of Casterly Rock"
+            }
+        },
+        {
+            "id": "40115",
+            "name": "Broken Resolve",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When an enemy Combat Unit fails a Morale Test:",
+                        "effect": [
+                            "That enemy becomes **Weakened**.",
+                            "Attach this card to that enemy until they pass a Morale Test.",
+                            "While this card is attached, each time this unit Activates, it becomes **Weakened**."
+                        ]
+                    }
+                ],
+                "commander_id": "20104",
+                "commander_name": "Tywin Lannister",
+                "commander_subname": "Lord of Casterly Rock"
+            }
+        },
+        {
+            "id": "40116",
+            "name": "Issue Commands",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When your Commander's unit Activates:",
+                        "effect": [
+                            "This unit cannot perform Actions this Turn. Instead, target 1 other friendly unit in Long Range. It performs 1 Attack or Charge Action."
+                        ]
+                    },
+                    {
+                        "trigger": "Start of any Turn:",
+                        "effect": [
+                            "Target 1 friendly Combat Unit. Remove 1 Order token from that unit. They may use that Order again this Round."
+                        ]
+                    }
+                ],
+                "commander_id": "20104",
+                "commander_name": "Tywin Lannister",
+                "commander_subname": "Lord of Casterly Rock"
+            }
+        },
+        {
+            "id": "40117",
+            "name": "False Agenda",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When an enemy NCU Activates:",
+                        "effect": [
+                            "If that NCU Claims a zone this Turn, after resolving that zone's effect, you may move that NCU to any unclaimed zone.",
+                            "If you removed that NCU from [LETTER], target 1 enemy Combat Unit. They gain 1 Condition token."
+                        ]
+                    }
+                ],
+                "commander_id": "20105",
+                "commander_name": "Tyrion Lannister",
+                "commander_subname": "Halfman"
+            }
+        },
+        {
+            "id": "40118",
+            "name": "Cunning Ploy",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When a friendly Combat Unit Activates:",
+                        "effect": [
+                            "This unit cannot perform Actions this Turn. Instead, target 1 other friendly Combat Unit. It performs 1 Maneuver, March, or Retreat Action.",
+                            "If either unit is Tyrion's unit, before performing this Action, 1 enemy in Long Range of Tyrion's unit becomes **Vulnerable**."
+                        ]
+                    }
+                ],
+                "commander_id": "20105",
+                "commander_name": "Tyrion Lannister",
+                "commander_subname": "Halfman"
+            }
+        },
+        {
+            "id": "40119",
+            "name": "Intercept Orders",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When an opponent targets a unit with a Tactics Zone:",
+                        "effect": [
+                            "Roll a die. On a 3+, your opponent must target a different unit with that zone's effect *(if able)*.",
+                            "If you Control [LETTER], you may re-roll this die.",
+                            "If the newly targeted unit is in Long Range of Tyrion's unit, it gains a Condition token."
+                        ]
+                    }
+                ],
+                "commander_id": "20105",
+                "commander_name": "Tyrion Lannister",
+                "commander_subname": "Halfman"
+            }
+        },
+        {
+            "id": "40120",
+            "name": "Mercy of The Mother",
+            "statistics": {
+                "version": "S05",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When a friendly Combat Unit Activates:",
+                        "effect": [
+                            "Remove 1 Condition token form that unit. They performs 1 Morale Test.",
+                            "On a success, restore 2 Wounds to that unit, +1 Wound for each of its destroyed ranks.",
+                            "On a failure, restore 1 Wound to that unit."
+                        ]
+                    }
+                ],
+                "commander_id": "20125",
+                "commander_name": "The High Sparrow",
+                "commander_subname": "His High Holiness"
+            }
+        },
+        {
+            "id": "40121",
+            "name": "Protection of The Father",
+            "statistics": {
+                "version": "S05",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When an enemy is performing a Melee Attack, after rolling Defense Dice:",
+                        "effect": [
+                            "The Defender performs 1 Morale Test. On a success, they block +3 Hits. On a failure, they block +1 Hit."
+                        ]
+                    }
+                ],
+                "commander_id": "20125",
+                "commander_name": "The High Sparrow",
+                "commander_subname": "His High Holiness"
+            }
+        },
+        {
+            "id": "40122",
+            "name": "Wrath of The Warrior",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When a friendly unit is performing a Melee Attack, before rolling Attack Dice:",
+                        "effect": [
+                            "That unit performs 1 Morale Test. On a success, this Attack gains +1 to Hit and **Sundering**. On a failure, this Attack deals +1 Hit."
+                        ]
+                    }
+                ],
+                "commander_id": "20125",
+                "commander_name": "The High Sparrow",
+                "commander_subname": "His High Holiness"
+            }
+        },
+        {
+            "id": "40123",
+            "name": "You Will Obey Me!",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When a friendly unit is performing a Melee Attack, before rolling Attack Dice:",
+                        "effect": [
+                            "This Attack gains +2 Attack Dice and **Sundering**.",
+                            "If this Attack did not destroy at least 1 of the Defender's ranks, the Attacker becomes **Panicked** and **Vulnerable**."
+                        ]
+                    }
+                ],
+                "commander_id": "20121",
+                "commander_name": "Joffrey Baratheon",
+                "commander_subname": "First of his Name"
+            }
+        },
+        {
+            "id": "40124",
+            "name": "Traitors! I Will Have Their Heads!",
+            "statistics": {
+                "version": "2021-S03",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "Start of a friendly Turn:",
+                        "effect": [
+                            "Target 1 enemy Combat Unit and attach this card to them.",
+                            "While attached, Melee Attacks against this unit gain **Vicious**.",
+                            "At the end of the Round, if this unit has not been destroyed, remove this card from them, and each unit that attacked them this Round becomes **Panicked** and **Vulnerable**."
+                        ]
+                    }
+                ],
+                "commander_id": "20121",
+                "commander_name": "Joffrey Baratheon",
+                "commander_subname": "First of his Name"
+            }
+        },
+        {
+            "id": "40125",
+            "name": "I Am The King!",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When an enemy is performing a Melee Attack, after Defense Dice are rolled:",
+                        "effect": [
+                            "Target the Defender. They block +2 Hits. After this Attack has been completed, the Defender becomes **Panicked** and **Weakened**."
+                        ]
+                    }
+                ],
+                "commander_id": "20121",
+                "commander_name": "Joffrey Baratheon",
+                "commander_subname": "First of his Name"
+            }
+        },
+        {
+            "id": "40126",
+            "name": "Charismatic Leadership",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When a friendly unit is targeted by an Enemy Order, NCU, or Tactics Zone, before resolving that effect:",
+                        "effect": [
+                            "That unit performs 1 Morale Test. On a success, cancel the effect of that Order, NCU, or Tactics Zone.",
+                            "If they are in Short Range of Addam Marbrand's unit, gain +2 to their Morale Test roll."
+                        ]
+                    }
+                ],
+                "commander_id": "20129",
+                "commander_name": "Addam Marbrand",
+                "commander_subname": "Commander of the City Watch"
+            }
+        },
+        {
+            "id": "40127",
+            "name": "Lash Out",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "After an enemy completes a Melee Attack:",
+                        "effect": [
+                            "If the Defender was not destroyed, the Attacker suffers 2 Wounds for each of the Defender's destroyed ranks. If the Defender is Addam Marbrand's unit, the Attacker also becomes **Panicked**."
+                        ]
+                    }
+                ],
+                "commander_id": "20129",
+                "commander_name": "Addam Marbrand",
+                "commander_subname": "Commander of the City Watch"
+            }
+        },
+        {
+            "id": "40128",
+            "name": "Valiant Example",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "After Addam Marbrand's unit passes a Morale Test:",
+                        "effect": [
+                            "All other friendly units in Long Range restore 1 Wound, +1 Wound for each destroyed rank in Addam's unit.",
+                            "Then, restore 2 Wounds to Addam's unit."
+                        ]
+                    },
+                    {
+                        "trigger": "Start of any Turn:",
+                        "effect": [
+                            "Draw 1 Tactics card."
+                        ]
+                    }
+                ],
+                "commander_id": "20129",
+                "commander_name": "Addam Marbrand",
+                "commander_subname": "Commander of the City Watch"
+            }
+        },
+        {
+            "id": "40129",
+            "name": "Predictable Maneuvers",
+            "statistics": {
+                "version": "S04",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "Start of the first Enemy Turn in a Round:",
+                        "effect": [
+                            "Target 1 enemy Combat Unit and 1 enemy NCU. If either unit performs an Action this Turn, before they resolve that Action, 1 friendly Combat Unit performs 1 Attack, Maneuver, or Retreat Action."
+                        ]
+                    }
+                ],
+                "commander_id": "20130",
+                "commander_name": "Kevan Lannister",
+                "commander_subname": "Protector of the Realm"
+            }
+        },
+        {
+            "id": "40130",
+            "name": "Seeing Their Flaws",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "After an enemy Combat Unit completes an Action:",
+                        "effect": [
+                            "That enemy becomes **Vulnerable** and **Panicked**.",
+                            "Attach this card to that enemy until the end of the Round. While attached, while Kevan Lannister's unit is Attacking that enemy, that enemy loses all Abilities and cannot be targeted by friendly Tactics cards."
+                        ]
+                    }
+                ],
+                "commander_id": "20130",
+                "commander_name": "Kevan Lannister",
+                "commander_subname": "Protector of the Realm"
+            }
+        },
+        {
+            "id": "40131",
+            "name": "Wealth of the Rock",
+            "statistics": {
+                "version": "2021",
+                "faction": "lannister",
+                "text": [
+                    {
+                        "trigger": "When an enemy is performing an Attack, after rolling Attack Dice:",
+                        "effect": [
+                            "Target the Defender.",
+                            "If you Control [CROWN], the Defender gains +2 to their Panic Test roll.",
+                            "If you Control [MONEY], the Defender gains +1 to Defense Dice rolls.",
+                            "If this targets Kevan Lannister's unit, you count as Controlling both zones."
+                        ]
+                    }
+                ],
+                "commander_id": "20130",
+                "commander_name": "Kevan Lannister",
+                "commander_subname": "Protector of the Realm"
+            }
+        }
+    ],
+    "specials": [
+        {
+            "name": "Baratheon Banners",
+            "id": "50101",
+            "type": "banners",
+            "statistics": {
+                "faction": "lannister",
+                "version": "2021",
+                "front": {
+                    "ratio": 0.2,
+                    "crests": 2,
+                    "style": "banners",
+                    "text": [
+                        "The Kingsguard come with 4 Baratheon Banners. At the start of its Activation, it may remove Baratheon Banners to gain the following. Each may be selected only once per Activation:",
+                        "• This Turn, this unit's Attacks gain **Critical Blow** and **Sundering**.",
+                        "• This Turn, this unit's Attacks gain **Vicious** and, if the Defender fails their Panic Test, they suffer +1 Wound.",
+                        "• This Turn, when this unit is performing an Attack, before rolling Attack Dice, the Defender becomes **Panicked** and **Weakened**.",
+                        "• This unit restores 2 Wounds and may re-roll Charge and Retreat Distance Dice this Turn."
+                    ]
+                },
+                "back": {
+                    "ratio": 0.25,
+                    "crests": 2,
+                    "image": true
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Army size",
+    "description": "Limit an army size based on cumulative unit point values",
+    "inputs": [
+      {
+        "name": "army_size",
+        "description": "Army size",
+        "type": "integer"
+      }
+    ],
+    "priority": 1,
+    "condition": "unit_list.reduce((total, unit) => total + (unit.statistics.cost || 0), 0) <= army_size",
+    "on_true": [
+      "logAction(\"Army size is valid.\")"
+    ],
+    "on_false": [
+      "logAction(\"Army size exceeds the limit.\")"
+    ]
+  },
+  {
+    "name": "Same Faction",
+    "description": "Check if all units belong to the same faction",
+    "inputs": [],
+    "priority": 2,
+    "condition": "unit_list.every(unit => unit.faction === unit_list[0].faction)",
+    "on_true": [
+      "log(\"All units belong to the same faction.\")"
+    ],
+    "on_false": [
+      "log(\"Not all units belong to the same faction.\")"
+    ]
+  }
+]
+

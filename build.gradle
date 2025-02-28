@@ -1,0 +1,39 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'asoiafnexus'
+version '0.1-SNAPSHOT'
+
+sourceCompatibility = 11
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.jeasy:easy-rules-core:4.1.0'
+    implementation 'org.mvel:mvel2:2.4.7.Final'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.3'
+    implementation 'org.slf4j:slf4j-api:1.7.30'
+    implementation 'org.slf4j:slf4j-simple:1.7.30'
+    implementation 'org.graalvm.js:js:20.3.0'
+}
+
+application {
+    mainClassName = 'asoiafnexus.ASOIAFRulesEngine'
+}
+
+task runProject(type: JavaExec) {
+    group = 'application'
+    description = 'Run the rules engine'
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'asoiafnexus.ASOIAFRulesEngine'
+    standardInput = System.in
+}
+
+test {
+    useJUnitPlatform()
+}
+
